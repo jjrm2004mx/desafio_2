@@ -1,0 +1,37 @@
+{
+  "name": "desafio_2-y-desafio_3",
+  "version": "1.0.0",
+  "description": "inicializar proyecto e instalar dependencias nodejs y prettier",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node node_modules/mocha/bin/mocha --timeout=60000 ./test",
+    "desafio-2": "node node_modules/mocha/bin/mocha --timeout=60000 ./test/Desafio2_example.test.js",
+    "desafio-3": "node node_modules/mocha/bin/mocha --timeout=60000 ./test/Desafio3_example.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjrm2004mx/desafio_2.git"
+  },
+  "keywords": [
+    "desafio_2"
+  ],
+  "author": "José de Jesús Rosales Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjrm2004mx/desafio_2/issues"
+  },
+  "homepage": "https://github.com/jjrm2004mx/desafio_2#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "chai": "^4.4.1",
+    "mocha": "^11.0.1",
+    "puppeteer": "^23.9.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
